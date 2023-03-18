@@ -1,0 +1,29 @@
+.start__screen__content {
+    background-image: $start-screen-gradient-background;
+}
+
+.start__screen__content__wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.start__screen__text__content {
+    width: 460px;
+}
+
+.start__screen__heading {
+    color: $color-light-xl;
+    margin-right: 150px;
+}
+
+.start__screen__subheading {
+    color: $color-dark-s;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin: 42px 0;
+}

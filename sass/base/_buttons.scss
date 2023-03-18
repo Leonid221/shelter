@@ -1,0 +1,21 @@
+.button {
+    font-family: 'Georgia', Verdana, sans-serif;
+    padding: 15px 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button__primary {
+    border: 2px solid $color-primary;
+    background-color: $color-primary;
+}
+
+.button__primary:hover {
+    background-color: $color-primary-light;
+    border-color: $color-primary-light;
+}
