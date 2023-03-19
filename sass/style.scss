@@ -1,4 +1,7 @@
+// Abstract
 @import "abstract/constants";
+@import "abstract/mixins";
+@import "abstract/placeholders";
 
 //Base
 @import "base/base";
@@ -10,3 +13,5 @@
 
 //Components
 @import "components/start-screen";
+@import "components/navigation";
+@import "components/about";

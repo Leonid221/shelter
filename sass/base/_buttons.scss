@@ -8,14 +8,12 @@
     border-radius: 100px;
     cursor: pointer;
     transition: all .3s;
-}
-
-.button__primary {
-    border: 2px solid $color-primary;
-    background-color: $color-primary;
-}
-
-.button__primary:hover {
-    background-color: $color-primary-light;
-    border-color: $color-primary-light;
+    &__primary {
+        border: 2px solid $color-primary;
+        background-color: $color-primary;
+        &:hover {
+            background-color: $color-primary-light;
+            border-color: $color-primary-light;
+        }
+    }
 }
