@@ -51,6 +51,39 @@ h3 {
       background-color: #FDDCC4;
       border-color: #FDDCC4; }
 
+.ico {
+  cursor: pointer;
+  display: inline-block;
+  height: 60px;
+  width: 60px; }
+
+.ico_food {
+  background-image: url("../img/icons_help/food.svg"); }
+
+.ico_transportation {
+  background-image: url("../img/icons_help/icon-transportation.svg"); }
+
+.ico_toys {
+  background-image: url("../img/icons_help/icon-toys.svg"); }
+
+.ico_bowls_and_cups {
+  background-image: url("../img/icons_help/icon-bowls-and-cups.svg"); }
+
+.ico_shampoos {
+  background-image: url("../img/icons_help/icon-shampoos.svg"); }
+
+.ico_vitamins {
+  background-image: url("../img/icons_help/icon-vitamins.svg"); }
+
+.ico_medicines {
+  background-image: url("../img/icons_help/icon-medicines.svg"); }
+
+.ico_collars_leashes {
+  background-image: url("../img/icons_help/icon-collars-leashes.svg"); }
+
+.ico_sleeping_areas {
+  background-image: url("../img/icons_help/icon-sleeping-area.svg"); }
+
 .wrapper {
   max-width: 1200px;
   margin: auto; }
@@ -140,5 +173,22 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 2.4rem; }
+
+.help__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.help__content__wrapper {
+  width: 1026px; }
+
+.help__content__first__row {
+  display: flex;
+  justify-content: space-between; }
+
+.help__content__second__row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5.5rem; }
 
 /*# sourceMappingURL=style.css.map */

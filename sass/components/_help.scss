@@ -1,0 +1,21 @@
+.help__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.help__content__wrapper {
+    width: 1026px;
+}
+
+.help__content__first__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.help__content__second__row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5.5rem;
+}
