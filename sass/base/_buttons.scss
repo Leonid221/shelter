@@ -8,6 +8,7 @@
     border-radius: 100px;
     cursor: pointer;
     transition: all .3s;
+    background-color: $color-primary;
     &__primary {
         border: 2px solid $color-primary;
         background-color: $color-primary;
@@ -16,4 +17,20 @@
             border-color: $color-primary-light;
         }
     }
+}
+
+.button__credit__card {
+    border-radius: 9px;
+    color: $color-heading;
+    border-color: $color-primary;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include font($size: 2rem, $height: 2.3rem);
+}
+
+.card__button__text {
+    margin: 0;
+    padding-left: 15px;
 }
