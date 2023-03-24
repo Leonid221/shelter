@@ -1,4 +1,4 @@
-.nav__link__item {
+.learn__more, .button__pets, .nav__link__item, .arrow__slider, .slider__card {
   transition: all .3s ease-out; }
 
 .about__text, .donation__text {
@@ -69,6 +69,27 @@ h3 {
   margin: 0;
   padding-left: 15px; }
 
+.learn__more {
+  margin-bottom: 30px;
+  color: #292929;
+  border: 2px solid #F1CDB3;
+  background-color: #FAFAFA;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem; }
+  .learn__more:hover {
+    background-color: #F1CDB3; }
+
+.button__pets {
+  margin-top: 60px;
+  color: #292929;
+  border: none;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem; }
+
 .ico {
   cursor: pointer;
   display: inline-block;
@@ -106,6 +127,21 @@ h3 {
   height: 23px;
   width: 30px;
   background-image: url("../img/icons_donation/credit-card.svg"); }
+
+.ico_location {
+  width: 22px;
+  height: 32px;
+  background-image: url("../img/icons_footer/icon-marker.svg"); }
+
+.ico_mail {
+  width: 40px;
+  height: 32px;
+  background-image: url("../img/icons_footer/icon-email.svg"); }
+
+.ico_phone {
+  width: 40px;
+  height: 32px;
+  background-image: url("../img/icons_footer/icon-phone.svg"); }
 
 .wrapper {
   max-width: 1200px;
@@ -282,5 +318,124 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 1.8rem; }
+
+.footer {
+  background-image: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+  padding-top: 40px; }
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+  width: 278px; }
+
+.footer__heading {
+  padding-top: 1.6rem;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.5rem; }
+  .footer__heading.location {
+    width: 270px; }
+
+.location__container {
+  width: 302px; }
+
+.contacts__link {
+  padding-top: 4rem;
+  color: #F1CDB3;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 251px;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.3rem; }
+
+.contacts__text {
+  margin: 0;
+  width: 192px; }
+
+.address {
+  color: #F1CDB3;
+  width: 302px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.3rem; }
+  .address.boston {
+    padding-top: 34px; }
+  .address.london {
+    padding-top: 37px; }
+
+.address__text {
+  margin: 0;
+  width: 260px; }
+
+.pets {
+  background-color: #F6F6F6;
+  padding: 80px 0 100px; }
+
+.slider__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.pets__slider {
+  display: flex; }
+
+.arrow__slider {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  cursor: pointer; }
+  .arrow__slider:hover {
+    background-color: #FDDCC4;
+    border-color: #FDDCC4; }
+
+.slider__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  border-radius: 9px;
+  background-color: #FAFAFA;
+  cursor: pointer; }
+  .slider__card:hover {
+    background-color: #FFFFFF; }
+
+.pet__name {
+  padding: 30px 0; }
+
+.pets__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.heading__pets {
+  width: 400px;
+  color: #545454;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.06rem;
+  padding-bottom: 60px;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.5rem; }
 
 /*# sourceMappingURL=style.css.map */

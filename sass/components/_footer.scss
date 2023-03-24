@@ -1,0 +1,66 @@
+.footer {
+    background-image: $footer-gradient-background;
+    padding-top: 40px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contacts__container {
+    display: flex;
+    flex-direction: column;
+    width: 278px;
+}
+
+.footer__heading {
+    padding-top: 1.6rem;
+    margin: 0;
+    color: $color-light-xl;
+    @include font($size: 3.5rem, $height: 4.5rem);
+    &.location {
+        width: 270px;
+    }
+}
+
+.location__container {
+    width: 302px;
+}
+
+.contacts__link {
+    padding-top: 4rem;
+    color: $color-primary;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 251px;
+    @include font($size: 2rem, $height: 2.3rem);
+}
+
+.contacts__text {
+    margin: 0;
+    width: 192px;
+}
+
+.address {
+    color: $color-primary;
+    width: 302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include font($size: 2rem, $height: 2.3rem);
+    &.boston {
+        padding-top: 34px;
+    }
+    &.london {
+        padding-top: 37px;
+    }
+}
+
+.address__text {
+    margin: 0;
+    width: 260px;
+}

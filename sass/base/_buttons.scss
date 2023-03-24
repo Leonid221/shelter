@@ -34,3 +34,24 @@
     margin: 0;
     padding-left: 15px;
 }
+
+.learn__more {
+    margin-bottom: 30px;
+    color: $color-dark-3xl;
+    border: 2px solid $color-primary;
+    background-color: $color-light-s;
+    @include font($size: 1.7rem, $height: 2.2rem);
+    @extend %transition;
+    &:hover {
+        background-color: $color-primary;
+    }
+}
+
+.button__pets {
+    margin-top: 60px;
+    color: $color-dark-3xl;
+    border: none;
+    @extend %transition;
+    @include font($size: 1.7rem, $height: 2.2rem);
+
+}
