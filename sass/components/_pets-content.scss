@@ -1,0 +1,49 @@
+.main__pets {
+    background-color: $color-pets;
+    padding: 80px 0 100px;
+}
+
+.pets__page__heading {
+    width: 400px;
+    color: $color-heading;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    padding-bottom: 60px;
+    margin: auto;
+    @include font($size: 3.5rem, $height: 4.5rem);
+}
+
+.pets__card__wrapp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+}
+
+.pets_page {
+    margin: 0;
+}
+
+.nav_slider_container {
+    width: 340px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.pets__nav__slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid $color-primary;
+    cursor: pointer;
+    @extend %transition;
+    &:hover {
+        background-color: $color-primary-light;
+        border-color: $color-primary-light;
+    }
+}

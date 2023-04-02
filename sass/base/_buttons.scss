@@ -27,7 +27,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 349px;
     @include font($size: 2rem, $height: 2.3rem);
+    @include media-mobile {
+        margin: auto;
+        width: 281px;
+        @include font($size: 1.5rem, $height: 1.7rem);
+    }
 }
 
 .card__button__text {
@@ -53,5 +59,8 @@
     border: none;
     @extend %transition;
     @include font($size: 1.7rem, $height: 2.2rem);
+    @include media-mobile {
+        margin-top: 42px;
+    }
 
 }

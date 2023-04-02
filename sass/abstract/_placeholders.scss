@@ -6,3 +6,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+%slider-controler {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid $color-primary;
+    cursor: pointer;
+    &:hover {
+        background-color: $color-primary-light;
+        border-color: $color-primary-light;
+    }
+}
+

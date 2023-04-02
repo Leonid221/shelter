@@ -1,0 +1,18 @@
+.header__pets {
+    padding: 30px 40px;
+}
+
+.header__pets__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pets__title__link {
+    color: $color-heading;
+    text-decoration: none;
+}
+
+.pets__subtitle {
+    color: $color-dark-3xl;
+}

@@ -1,11 +1,23 @@
-.footer {
+.footer__section {
     background-image: $footer-gradient-background;
     padding-top: 40px;
 }
 
-.footer__wrapper {
+.footer {
     display: flex;
     justify-content: space-between;
+    @include media-tablet {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+    @include media-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
@@ -13,6 +25,30 @@
     display: flex;
     flex-direction: column;
     width: 278px;
+    @include media-tablet {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+    }
+}
+
+.location__container {
+    width: 302px;
+    @include media-tablet {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+}
+
+.footer__dog__img {
+    @include media-tablet {
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 2;
+        justify-self: center;
+    }
+    @include media-mobile {
+        width: 260px;
+        margin-top: 40px;
+    }
 }
 
 .footer__heading {
@@ -23,11 +59,13 @@
     &.location {
         width: 270px;
     }
+    @include media-mobile {
+        @include font($size: 2.5rem, $height: 3.2rem);
+        text-align: center;
+    }
 }
 
-.location__container {
-    width: 302px;
-}
+
 
 .contacts__link {
     padding-top: 4rem;

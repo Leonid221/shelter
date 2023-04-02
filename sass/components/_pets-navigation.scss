@@ -1,0 +1,11 @@
+.pet_nav_item {
+    color: $color-heading;
+    text-decoration: none;
+    @extend %transition;
+    &:hover {
+        color: $color-dark-3xl;
+    }
+    &:active {
+        border-bottom: 3px solid $color-primary;
+    }
+}

@@ -22,18 +22,17 @@
                     <p class="subtitle">Shelter for pets in Boston</p>
                 </div>
                 <nav class="header__nav">
-                    <!-- <div class="close-btn">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div> -->
                     <ul class="nav__links">
-                        <li class="nav__link"><a class="nav__link__item" href="#">About the shelter</a></li>
-                        <li class="nav__link"><a class="nav__link__item" href="#">Our pets</a></li>
-                        <li class="nav__link"><a class="nav__link__item" href="#">Help the shelter</a></li>
-                        <li class="nav__link"><a class="nav__link__item" href="#">Contacts</a></li>
+                        <li class="nav__link"><a class="nav__link__item" href="#about_section">About the shelter</a>
+                        </li>
+                        <li class="nav__link"><a class="nav__link__item" href="pets_page.html">Our pets</a></li>
+                        <li class="nav__link"><a class="nav__link__item" href="#help__section">Help the shelter</a></li>
+                        <li class="nav__link"><a class="nav__link__item" href="#contacts__section">Contacts</a></li>
                     </ul>
                 </nav>
+                <span class="hamburger">
+                    <span class="hamburger__line"></span>
+                </span>
             </div>
         </header>
         <!-- Section start screen -->
@@ -52,27 +51,25 @@
         </div>
     </section>
     <!-- Section About -->
-    <section class="about">
-        <div class="wrapper">
-            <div class="about__wrapper">
-                <img src="img/about-shelter-pets.png" alt="dog&cat">
-                <div class="about__text__content">
-                    <h3 class="about__heading">About the shelter “Cozy House”</h3>
-                    <p class="about__text">Currently we have 121 dogs and 342 cats on our hands and statistics show that
-                        only 20% of them
-                        will find a family.
-                        The others will continue to live with us and will be waiting for a lucky chance to become dearly
-                        loved.
-                    </p>
-                    <p class="about__text">We feed our wards with the best food and make sure that they do not get sick,
-                        feel comfortable
-                        (including psychologically) and well.
-                        We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the
-                        animals are taken by the shelter staff.
-                        Taking care of the animals, they become attached to the pets and would hardly ever leave them
-                        alone.
-                    </p>
-                </div>
+    <section id="about_section" class="about__section__class">
+        <div class="wrapper about">
+            <img class="about__dog_cat__img" src="img/about-shelter-pets.png" alt="dog&cat">
+            <div class="about__text__content">
+                <h3 class="about__heading">About the shelter “Cozy House”</h3>
+                <p class="about__text">Currently we have 121 dogs and 342 cats on our hands and statistics show that
+                    only 20% of them
+                    will find a family.
+                    The others will continue to live with us and will be waiting for a lucky chance to become dearly
+                    loved.
+                </p>
+                <p class="about__text">We feed our wards with the best food and make sure that they do not get sick,
+                    feel comfortable
+                    (including psychologically) and well.
+                    We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the
+                    animals are taken by the shelter staff.
+                    Taking care of the animals, they become attached to the pets and would hardly ever leave them
+                    alone.
+                </p>
             </div>
         </div>
     </section>
@@ -105,111 +102,107 @@
                     <div class="arrow__slider right">
                         <img src="img/Arrow_right.png" alt="">
                     </div>
+                    <div class="slider__controlers__mob">
+                        <div class="arrow__slider__mob left">
+                            <img src="img/Arrow_left.png" alt="">
+                        </div>
+                        <div class="arrow__slider__mob right">
+                            <img src="img/Arrow_right.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <button class="button button__pets">Get to know the rest</button>
             </div>
         </div>
     </section>
     <!-- Section Help -->
-    <section class="help">
-        <div class="wrapper">
-            <div class="help__wrapper">
-                <h3 class="heading__help">How you can help our shelter</h3>
-                <div class="help__content__wrapper">
-                    <div class="help__content__first__row">
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_food"></span>
-                            <figcaption class="ico__title">Pet food</figcaption>
-                        </figure>
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_transportation"></span>
-                            <figcaption class="ico__title">Transportation</figcaption>
-                        </figure>
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_toys"></span>
-                            <figcaption class="ico__title">Toys</figcaption>
-                        </figure>
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_bowls_and_cups"></span>
-                            <figcaption class="ico__title">Bowls and cups</figcaption>
-                        </figure>
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_shampoos"></span>
-                            <figcaption class="ico__title">Shampoos</figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="help__content__second__row">
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_vitamins"></span>
-                            <figcaption class="ico__title">Vitamins</figcaption>
-                        </figure>
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_medicines"></span>
-                            <figcaption class="ico__title">Medicines</figcaption>
-                        </figure>
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_collars_leashes"></span>
-                            <figcaption class="ico__title">Collars / leashes</figcaption>
-                        </figure>
-                        <figure class="ico__wrapper">
-                            <span class="ico ico_sleeping_areas"></span>
-                            <figcaption class="ico__title">Sleeping areas</figcaption>
-                        </figure>
-                    </div>
-
-                </div>
+    <section id="help__section" class="help__section">
+        <div class="wrapper help">
+            <h3 class="heading__help">How you can help our shelter</h3>
+            <div class="help__content__wrapper">
+                <figure class="ico__wrapper">
+                    <span class="ico ico_food"></span>
+                    <figcaption class="ico__title">Pet food</figcaption>
+                </figure>
+                <figure class="ico__wrapper">
+                    <span class="ico ico_transportation"></span>
+                    <figcaption class="ico__title">Transportation</figcaption>
+                </figure>
+                <figure class="ico__wrapper">
+                    <span class="ico ico_toys"></span>
+                    <figcaption class="ico__title">Toys</figcaption>
+                </figure>
+                <figure class="ico__wrapper">
+                    <span class="ico ico_bowls_and_cups"></span>
+                    <figcaption class="ico__title">Bowls and cups</figcaption>
+                </figure>
+                <figure class="ico__wrapper">
+                    <span class="ico ico_shampoos"></span>
+                    <figcaption class="ico__title">Shampoos</figcaption>
+                </figure>
+                <figure class="ico__wrapper">
+                    <span class="ico ico_vitamins"></span>
+                    <figcaption class="ico__title">Vitamins</figcaption>
+                </figure>
+                <figure class="ico__wrapper">
+                    <span class="ico ico_medicines"></span>
+                    <figcaption class="ico__title">Medicines</figcaption>
+                </figure>
+                <figure class="ico__wrapper">
+                    <span class="ico ico_collars_leashes"></span>
+                    <figcaption class="ico__title">Collars / leashes</figcaption>
+                </figure>
+                <figure class="ico__wrapper">
+                    <span class="ico ico_sleeping_areas"></span>
+                    <figcaption class="ico__title">Sleeping areas</figcaption>
+                </figure>
             </div>
         </div>
     </section>
     <!-- Section Donation -->
-    <section class="donation">
-        <div class="wrapper">
-            <div class="donation__content__wrapp">
-                <div class="donation__container">
-                    <img src="img/donation-dog.png" alt="dog">
-                    <div class="donation__content">
-                        <h3 class="heading__donation">You can also make a donation</h3>
-                        <h5 class="subheading__donation">Name of the bank / Type of bank account</h5>
-                        <button class="button button__credit__card"><span class="ico ico_credit_card"></span>
-                            <p class="card__button__text">8380 2880 8028 8791 7435</p>
-                        </button>
-                        <p class="donation__text">Legal information and lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit.
-                            Maecenas a ipsum at libero sagittis dignissim sed ac diam.
-                            Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum
-                            primis
-                            in faucibus.
-                        </p>
-                    </div>
+    <section class="donation__section">
+        <div class="wrapper donation">
+            <div class="donation__container">
+                <img class="donation__dog__img" src="img/donation-dog.png" alt="dog">
+                <div class="donation__content">
+                    <h3 class="heading__donation">You can also make a donation</h3>
+                    <h5 class="subheading__donation">Name of the bank / Type of bank account</h5>
+                    <a class="button button__credit__card"><span class="ico ico_credit_card"></span>
+                        <p class="card__button__text">8380 2880 8028 8791 7435</p>
+                    </a>
+                    <p class="donation__text">Legal information and lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.
+                        Maecenas a ipsum at libero sagittis dignissim sed ac diam.
+                        Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum
+                        primis
+                        in faucibus.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Footer -->
-    <footer class="footer">
-        <div class="wrapper">
-            <div class="footer__wrapper">
-                <div class="contacts__container">
-                    <h3 class="footer__heading contacts">For questions and suggestions</h3>
-                    <a href="mailto:email@shelter.com" class="contacts__link mail"><span class="ico ico_mail"></span>
-                        <p class="contacts__text">email@shelter.com</p>
-                    </a>
-                    <a href="tel:+13 674 567 75 54" class="contacts__link phone"><span class="ico ico_phone"></span>
-                        <p class="contacts__text">+13 674 567 75 54</p>
-                    </a>
-                </div>
-                <div class="location__container">
-                    <h3 class="footer__heading">We are waiting for your visit</h3>
-                    <address class="address boston"><span class="ico ico_location"></span>
-                        <p class="address__text">1 Central Street, Boston (entrance from the store)</p>
-                    </address>
-                    <address class="address london"><span class="ico ico_location"></span>
-                        <p class="address__text">18 South Park, London</p>
-                    </address>
-                </div>
-                <img src="img/footer-puppy.png" alt="dog">
+    <footer id="contacts__section" class="footer__section">
+        <div class="wrapper footer">
+            <div class="contacts__container">
+                <h3 class="footer__heading contacts">For questions and suggestions</h3>
+                <a href="mailto:email@shelter.com" class="contacts__link mail"><span class="ico ico_mail"></span>
+                    <p class="contacts__text">email@shelter.com</p>
+                </a>
+                <a href="tel:+13 674 567 75 54" class="contacts__link phone"><span class="ico ico_phone"></span>
+                    <p class="contacts__text">+13 674 567 75 54</p>
+                </a>
             </div>
+            <div class="location__container">
+                <h3 class="footer__heading">We are waiting for your visit</h3>
+                <address class="address boston"><span class="ico ico_location"></span>
+                    <p class="address__text">1 Central Street, Boston (entrance from the store)</p>
+                </address>
+                <address class="address london"><span class="ico ico_location"></span>
+                    <p class="address__text">18 South Park, London</p>
+                </address>
+            </div>
+            <img class="footer__dog__img" src="img/footer-puppy.png" alt="dog">
         </div>
     </footer>
 </body>

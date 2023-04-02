@@ -1,19 +1,27 @@
-.donation {
+.donation__section {
     background-color: $color-pets;
 }
 
-.donation__content__wrapp {
+.donation {
     padding: 80px 142px 100px;
+    @include media-tablet {
+        padding: 80px 0 100px;
+    }
 }
 
 .donation__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include media-tablet {
+        margin: auto;
+        flex-direction: column-reverse;
+    }
 }
 
 .donation__content {
-    width: 380px;
+    max-width: 380px;
+    
 }
 
 .heading__donation {
@@ -22,6 +30,13 @@
     padding-right: 40px;
     color: $color-heading;
     @include font($size: 3.5rem, $height: 4.5rem);
+    @include media-mobile {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        @include font($size: 2.5rem, $height: 3.2rem);
+    }
+    
 }
 
 .subheading__donation {
@@ -29,10 +44,27 @@
     padding: 20px 0 20px;
     color: $color-heading;
     @include font($size: 1.5rem, $height: 1.7rem);
+    @include media-mobile {
+        text-align: center;
+        @include font($size: 1.5rem, $height: 2.4rem);
+    }
 }
 
 .donation__text {
     color: $color-dark-m;
     @extend %font-add;
     @include font($size: 1.2rem, $height: 1.8rem);
+    @include media-tablet {
+        margin: 20px 0 60px;
+    }
+    @include media-mobile {
+        max-width: 280px;
+        margin: 20px auto 42px;
+    }
+}
+
+.donation__dog__img {
+    @include media-mobile {
+        width: 260px;
+    }
 }

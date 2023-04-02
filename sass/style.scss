@@ -7,10 +7,14 @@
 @import "base/base";
 @import "base/buttons";
 @import "base/icons";
+@import "base/hamburger";
 
 //layouts
 @import "layouts/wrapper";
 @import "layouts/header";
+
+//layouts Pets__page
+@import "layouts/pets-header";
 
 //Components
 @import "components/start-screen";
@@ -19,4 +23,8 @@
 @import "components/help";
 @import "components/donation";
 @import "components/footer";
-@import "components/pets";
+@import "components/main-pets";
+
+// Components Pets_page
+@import "components/pets-navigation";
+@import "components/pets-content";
